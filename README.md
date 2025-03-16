@@ -33,17 +33,19 @@ It evaluates four major DataFrame engines in Python for real-world ETL workloads
 
 ## 📂 Directory Structure
 ```
-fireducks-benchmark-blog/
+benchmarks_testing
 ├── benchmark_scripts/
 │   ├── pandas_benchmark.py
 │   ├── fireducks_benchmark.py
 │   ├── polars_benchmark.py
 │   └── modin_benchmark.py
-├── data/
+├── data_generator/
 │   └── synthetic_data_generator.py
+├── data/
+    └── path.csv/data.md
+├── research_papers/
 ├── plots/
 │   └── benchmark_chart.png
-├── blog.md
 ├── requirements.txt
 └── README.md
 ```
